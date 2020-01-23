@@ -20,7 +20,6 @@ after_success:
   - docker push seogram/multi-nginx
   - docker push seogram/multi-server
   - docker push seogram/multi-worker
-
 # deploy:
 #   provider: elasticbeanstalk
 #   region: us-west-1
@@ -33,3 +32,4 @@ after_success:
 #   access_key_id: $AWS_ACCESS_KEY
 #   secret_access_key:
 #     secure: $AWS_SECRET_KEY
+
